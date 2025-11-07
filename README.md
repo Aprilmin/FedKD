@@ -26,10 +26,10 @@ pip install -r requirements.txt
 
 # Download datasets
 * UTD-MHAD
-    * UTD-MHAD dataset follows the previous work " <a href="https://github.com/xmouyang/Cosmo"> Cosmo: Contrastive Fusion Learning with Small Data for Multimodal Human Activity Recognition </a>" and pre-processed dataset can be downloaded in the [google driver folder]().
+    * UTD-MHAD dataset follows the previous work " <a href="https://github.com/xmouyang/Cosmo"> Cosmo: Contrastive Fusion Learning with Small Data for Multimodal Human Activity Recognition </a>" and pre-processed dataset can be downloaded in the [google driver folder](https://drive.google.com/file/d/1MOAiUdfo5JtCMt7AY7-n0hzCGhZ4bj_U/view?usp=drive_link).
     * Put the dataset into the UTD/data folder.
 * nuScenes
-    * The raw nuScenes dataset can be downloaded in the https://www.nuscenes.org/. The pre-processed dataset and sample index can downloaded in the [google driver folder]().
+    * The raw nuScenes dataset can be downloaded in the https://www.nuscenes.org/. The pre-processed dataset and sample index can downloaded in the [google driver folder](https://drive.google.com/file/d/16QucyiWzpzDUeHpB2JgOUv3nUcESA6Fz/view?usp=drive_link).
     * Put the dataset into the nuScenes/data folder.
 
 
