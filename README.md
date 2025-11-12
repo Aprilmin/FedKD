@@ -32,6 +32,16 @@ pip install -r requirements.txt
     * The raw nuScenes dataset can be downloaded in the https://www.nuscenes.org/. The pre-processed dataset and sample index can downloaded in the [google driver folder](https://drive.google.com/file/d/16QucyiWzpzDUeHpB2JgOUv3nUcESA6Fz/view?usp=drive_link).
     * Put the dataset into the nuScenes/data folder.
 
+# Download foundation models
+* Download the foundation model and place it in your local directory.
+	* UTD-MHAD
+   		* [CLIP-large](https://huggingface.co/openai/clip-vit-large-patch14)
+     	* [CLIP-base](https://huggingface.co/openai/clip-vit-base-patch32)
+	* nuScenes
+   		* [Qwen2.5-7B](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct)
+     	* [Qwen2.5-3B](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct)
+     	* [Qwen2-2B](https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct)
+* Afterward, update the model path in `options.py` to match your saved location.
 
 # Quick Start 
 * Activate the corresponding conda environment for dataset 
